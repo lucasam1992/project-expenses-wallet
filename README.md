@@ -12,10 +12,10 @@ O projeto consiste em uma carteira de controle de gastos com conversor de moedas
 
 ## Rodando o Projeto Localmente
 
- 1° `git clone git@github.com:lucasam1992/project-expenses-wallet.git`. - Clone o repositório para sua máquina
- 2° `cd project-expenses-wallet` - Entre na pasta do repositório clonado
- 3° `npm install` - Instale as dependências
- 4° `npm start` - Execute o programa
+ 1° `git clone git@github.com:lucasam1992/project-expenses-wallet.git`. - Clone o repositório para sua máquina <br />
+ 2° `cd project-expenses-wallet` - Entre na pasta do repositório clonado <br />
+ 3° `npm install` - Instale as dependências <br />
+ 4° `npm start` - Execute o programa <br />
  
  ## Autor
   - Lucas Machado
