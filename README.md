@@ -1,6 +1,6 @@
 # Boas vindas ao projeto Trybe Wallet!
 
-O projeto consiste em uma carteira de controle de gastos com conversor de moedas. Foi criado um CRUD(Create, Read, Update e Delete) usando a biblioteca do JavaScript `Redux`, para gerenciar os estados da aplicação. Foi integrado uma API de Cotações de Moedas
+O projeto consiste em uma carteira de controle de gastos com conversor de moedas. Foi criado um CRUD(Create, Read, Update e Delete) usando a biblioteca do JavaScript `Redux`, para gerenciar os estados da aplicação. Foi integrado uma API de Cotações de Moedas.
 
 
 # Tecnologias Usadas
@@ -9,20 +9,6 @@ O projeto consiste em uma carteira de controle de gastos com conversor de moedas
   - JavaScript
   - React
   - Redux
- 
-## O que deverá ser desenvolvido
-
-Neste projeto você vai desenvolver uma carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário deverá ser capaz de:
-  - Adicionar, remover e editar um gasto;
-  - Visualizar uma tabelas com seus gastos;
-  - Visualizar o total de gastos convertidos para uma moeda de escolha;
-
-## Desenvolvimento
-
-Você deve desenvolver uma aplicação em React que use Redux como ferramenta de manipulação de estado.
-
-Através dessa aplicação, será possível realizar as operações básicas de criação e manipulação de um estado de redux.
-
 
 ## Rodando o Projeto Localmente
 
