@@ -1,4 +1,4 @@
-# Boas vindas ao projeto Trybe Wallet!
+# Boas vindas ao projeto Expenses Wallet!
 
 O projeto consiste em uma carteira de controle de gastos com conversor de moedas. Foi criado um CRUD(Create, Read, Update e Delete) usando a biblioteca do JavaScript `Redux`, para gerenciar os estados da aplicação. Foi integrado uma API de Cotações de Moedas.
 
