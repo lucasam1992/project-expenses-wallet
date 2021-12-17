@@ -1,6 +1,6 @@
 # Boas vindas ao projeto Expenses Wallet!
 
-O projeto consiste em uma carteira de controle de gastos com conversor de moedas. Foi criado um CRUD(Create, Read, Update e Delete) usando a biblioteca do JavaScript `Redux`, para gerenciar os estados da aplicação. Foi integrado uma API de Cotações de Moedas.
+O projeto consiste em uma carteira de controle de gastos com conversor de moedas. Foi criado um CRUD(Create, Read, Update e Delete) usando a biblioteca do JavaScript `Redux`, para gerenciar os estados da aplicação. Além disso, foi integrado uma API de Cotações de Moedas.
 
 
 # Tecnologias Usadas
