@@ -6,6 +6,7 @@ export const REQUEST_API = 'REQUEST_API';
 export const GET_MONEY = 'GET_MONEY';
 export const ADD_EXPENSES = 'ADD_EXPENSES';
 export const SUM_TOTAL = 'SUM_TOTAL';
+export const DELETE_EXPENSES = 'DELETE_EXPENSES';
 
 export const login = (email) => ({
   type: LOGIN,
@@ -43,3 +44,10 @@ export const addExpenses = (expenses) => ({
     expenses,
   },
 }); // REQ 8
+
+export const deleteExpenses = (expenses) => ({
+  type: DELETE_EXPENSES,
+  payload: {
+    expenses,
+  },
+});
