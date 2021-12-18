@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { login as loginAction } from '../actions';
+import '../style/Login.css';
 
 class Login extends React.Component {
   constructor(props) {
@@ -65,7 +66,7 @@ class Login extends React.Component {
     const { email, senha, disableButton } = this.state;
     const { login } = this.props;
     return (
-      <div>
+      <div className="login-box">
         <div>
           <input
             data-testid="email-input"
@@ -73,6 +74,7 @@ class Login extends React.Component {
             onChange={ this.handleEmail }
             value={ email }
             placeholder="email"
+            className="field-email"
           />
           <input
             data-testid="password-input"
@@ -80,6 +82,7 @@ class Login extends React.Component {
             onChange={ this.handleSenha }
             value={ senha }
             placeholder="senha"
+            className="field-password"
           />
         </div>
         <Link to="/carteira">
@@ -87,6 +90,7 @@ class Login extends React.Component {
             type="button"
             disabled={ disableButton }
             onClick={ () => login(email) }
+            className="btn-log"
           >
             Entrar
           </button>

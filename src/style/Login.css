@@ -1,0 +1,29 @@
+* {
+  background: linear-gradient(14deg, #6c83ec 0%, #3e34ca 100%);
+}
+
+.login-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.btn-log {
+  border-radius: 8px;
+  padding: 5px;
+  width: 100%;
+}
+
+.field-password {
+  background-color: #3e34ca;
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+}
+
+.field-email {
+  background-color: #3e34ca;
+}

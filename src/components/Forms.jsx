@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import getCurrentMoneyAPILocation from '../services/MoneyAPI';
 import { thunkMoneyAPI, addExpenses } from '../actions';
+import '../style/Forms.css';
 
 class Forms extends React.Component {
   constructor() {
@@ -92,7 +93,7 @@ class Forms extends React.Component {
     const { currencies } = this.props;
     const { value, description, currency } = this.state;
     return (
-      <div>
+      <div className="forms-box">
         <form data-testid="wallet-form">
           <label htmlFor="number-in" data-testid="number-input-label">
             Valor

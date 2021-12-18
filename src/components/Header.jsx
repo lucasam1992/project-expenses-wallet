@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import '../style/Header.css';
 
 class Header extends React.Component {
 // busca o array de objetos expenses, depois buscar as 3 infos
@@ -19,7 +20,7 @@ class Header extends React.Component {
   render() {
     const { email } = this.props;
     return (
-      <header>
+      <header className="field-header">
         <span data-testid="email-field">{`Email: ${email}`}</span>
         <span data-testid="total-field">{`Despesa Total: ${this.totalExpended()}`}</span>
         <span data-testid="header-currency-field">{`Moeda: ${'BRL'}`}</span>
